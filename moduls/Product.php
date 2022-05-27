@@ -44,7 +44,7 @@
 
       // Clean data
       $this->id = htmlspecialchars(strip_tags($this->id));
-      $this->nama_barnag = htmlspecialchars(strip_tags($this->nama_barang));
+      $this->nama_barang = htmlspecialchars(strip_tags($this->nama_barang));
       $this->stock = htmlspecialchars(strip_tags($this->stock));
       $this->merek = htmlspecialchars(strip_tags($this->merek));
       $this->category = htmlspecialchars(strip_tags($this->category));
